@@ -1,0 +1,80 @@
+
+.wrapper-welcome {
+	background-color:#000;
+}
+
+/**
+ * Teaser
+ */
+
+.teaser {
+
+}
+
+
+/**
+ * topics
+ */
+
+div.teaser ul {
+	width:100%;
+	list-style-image: none;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+
+	display:flex;
+	justify-content: flex-start;
+    flex-wrap: wrap;
+
+	> li {
+	width:33.33%;
+	box-sizing:border-box;
+	min-height: 40vh;
+	padding: $spacing-unit * 2;
+	color: #fff;
+	}
+
+}
+
+
+#where {
+	background-color:#303F9F;
+	color:#CDFF47;
+	font-size: $base-font-size * 3 ;
+	line-height: $base-line-height / 2 ;
+	font-family: $base-font-heading;
+}
+
+#googleio {
+	background-color:#C72439;
+}
+
+#lobsterpicker {
+	background-color:#27BDAE;	
+}
+
+#procreate {
+	background-color:#27BDAE;
+}
+
+#catsticker {
+	background-color:#36CF8B;
+}
+
+#prototypingworkshop{
+	background-color:#1A81CA;
+}
+
+#ipadworkshop {	
+	background-color:#27BDAE;	
+}
+
+#casestudykerber {
+	background-color:#CDFF47;
+}
+
+#casestudybuzzinga {
+	background-color:#303F9F;
+}
+

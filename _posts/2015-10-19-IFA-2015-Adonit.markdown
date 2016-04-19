@@ -1,0 +1,34 @@
+---
+layout: stage
+title:  "IFA 2015 in Berlin with Adonit"
+date: 2016-03-14 17:10:20 +0100
+stage-image: /docs/2015_09_12_Adonit/ifa-rocks.jpg
+stage-thumbnail: /docs/2015_09_12_Adonit/2015_09_12_adonit_students.jpg
+categories: Event
+
+---
+
+thousands of people visit the IFA electronic fair in Berlin. Traders, designers, CEO's, managers and consumers. It is another world. Loud and fast. Adonit.net is known for manufacturing high quality stylus. We supported Adonit with several tasks.
+
+* Trained students for the IFA2015
+* Drew with procreate live at the IFA2015.
+* Helped consumers to understand the iPad, products and apps you can use.
+* reviewed Adonit products.
+* organized in collaboration the <a href="/workshop/2015/08/13/organizing-a-creative-ipad-workshop.html">creative iPad workshop</a>.
+
+
+Drawing in public is special and my team managed 6 days just fine.
+
+<ul class="gallery grid">
+<li><img class="gallery" src="/docs/2015_09_12_Adonit/thumb_IMG_2741_1024.jpg" /></li>
+<li><img class="gallery" src="/docs/2015_09_12_Adonit/21285957461_e0b849f946_k.jpg" /></li>
+<li><img class="gallery" src="/docs/2015_09_12_Adonit/21291259651_838b5f4955_k.jpg" /></li>
+<li><img class="gallery" src="/docs/2015_09_12_Adonit/ifa-rocks.jpg" /></li>
+<li><img class="gallery" src="/docs/2015_09_12_Adonit/thumb_P9040042_1024.jpg" /></li>
+
+<li><img class="gallery" src="/docs/2015_09_12_Adonit/thumb_P9040078_1024.jpg" /></li>
+<li><img class="gallery" src="/docs/2015_09_12_Adonit/thumb_P9070124_1024.jpg" /></li>
+<li><img class="gallery" src="/docs/2015_09_12_Adonit/thumb_P9070126_1024.jpg" /></li>
+</ul>
+
+Our personal highlight was the workshop at the <a href="http://aidberlin.de">Academy for Illustration and Design Berlin</a>. I'm very proud to say we had an amazing event powered by Adonit.net, Apple and us.

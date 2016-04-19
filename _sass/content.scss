@@ -1,0 +1,35 @@
+
+
+.content {
+	max-width: 1280px;
+    margin: auto;
+    padding-right: $spacing-unit * 2;
+    padding-left: $spacing-unit * 2;
+    padding-top: 0;
+    padding-bottom: $spacing-unit * 2;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+}
+
+.wrapper-content{
+    max-width: 650px;
+    margin: 0;
+    padding-bottom: $spacing-unit * 2;
+}
+
+.wrapper-content h1 {
+	text-transform: uppercase;
+	font-family: 'sofia_probold';
+	letter-spacing: 0.03em;
+    margin-bottom: $spacing-unit * 2;
+}
+
+.wrapper-content ul.gallery {
+	margin: 5vh 0;
+}

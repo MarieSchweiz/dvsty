@@ -1,0 +1,28 @@
+---
+layout: indexlist
+---
+
+<div class="home">
+
+  <ul class="post-list delay">
+    
+    {% for post in site.posts %}
+      <li>
+        <div class="post-image">
+          <div class="post-box">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+              <img class="image-link" src="{{ post.stage-thumbnail }}">
+            </a>
+            <p class="post-meta">- <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</p>
+          </div>
+        </div>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+    
+  </ul>
+
+</div>

@@ -1,0 +1,40 @@
+<footer class="site-footer">
+
+
+
+
+      <div class="footer-col-wrapper">
+    
+        <div class="footer-stretch-address">
+            <address>
+            <a href="/">dvsty.com</a> | Imprint<br>
+            Marie Schweiz<br>
+            Matternstr 14<br>
+            10249 Berlin<br>
+            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            <br>
+            Phone +49 30 255 866 24
+            </address>  
+        </div>
+        <div class="footer-fixed"> 
+              {% for my_page in site.pages %}
+                {% if my_page.title %}
+                <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+                {% endif %}
+              {% endfor %}
+              
+              <p>{{ site.description }}</p>
+              </div>
+              
+        <div class="footer-stretch"></div>
+    
+        
+      
+
+     
+
+    </div>
+
+  
+
+</footer>

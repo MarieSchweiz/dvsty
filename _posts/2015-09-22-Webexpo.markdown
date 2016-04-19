@@ -1,0 +1,52 @@
+---
+layout: stage
+title:  "Talk, Animation for Interfaces. Webexpo Prague 2015"
+date: 2015-09-22 17:10:20 +0100
+stage-image: /docs/2015_09_22_Webexpo/prague-header.jpg
+stage-thumbnail: /docs/2015_09_22_Webexpo/webexpo_notes.jpg
+categories: conference
+
+---
+
+
+A city which is taking you away. Prague isn't just the heart of Europe. It is hosting an excellent conference. The <a href="http://webexpo.cz">Webexpo</a> 2015 is a team lead by the incredible Šárka Štrossová. My very personal highlight was <a href="https://twitter.com/greggcorp">Gregg Bernsteins</a> talk about design research. When do products become great? His theory about the best experience is living in the center of wisdom, data and context. A very helpful talk. I did tried listening to CZ talks. And it is hear say <a href="https://twitter.com/JiriJerabek">Jiri Jerabek</a> did a great talk about <a href="http://www.bbc.co.uk/rd/blog/2015/08/how-we-test-concepts">how we can test concepts</a>.
+
+<a href="https://twitter.com/coexcz/status/645248726475407362"><img src="/docs/2015_09_22_Webexpo/CPRiTAwUcAAdA8S.jpg" alt="COEX tweet ‏@coexcz  19. Sep. Animations must be meaningful on first place! Via @ma_rylou #webexpo " class="image-center" /></a>
+ 
+>COEX tweet ‏@coexcz  19. Sep. Animations must be meaningful in first place! Via @ma_rylou #webexpo 
+
+<h2>Talking about animation for interfaces.</h2>
+My talk is ment for everyone. It means a lot to me when i can help to understand better and i did changed the way many people see how animations are made. How we can manufacture them and become meaningful. This talk is inspired by all of my clients and software i had to use in the past. I can see links and patterns which i simplified until you don't have to use it anymore. Sadly <a href="http://webexpo.net/prague2015/talk/animation-for-interfaces/">the recording</a> does not show my slides with animations. So it is a bit useless.
+
+Like to try how Bézier curves change a value? Checkout the <a href="http://jqueryui.com/resources/demos/effect/easing.html">JQuery demo chart</a>. Or use Googles <a href="https://googlesamples.github.io/web-fundamentals/samples/look-and-feel/animations/curve-playground.html">experimental tool</a>. For learning more about web animation i can highly recommend the <a href="https://developers.google.com/web/fundamentals/look-and-feel/animations/custom-easing">web fundamentals written by Paul Lewis and Sam Thorogood</a>.
+
+Every note is a key, they are arranged on a time line and grouped by the action a user likes to archive. Keep in mind what he want's and where he is going.
+
+<img src="/docs/2015_09_22_Webexpo/webexpo_notes.jpg" class="image-wide"/>
+
+
+For my audience i selected a long list of software which you can use after you managed to give your usecase a proper animation concept with meaning. I'am personally is using Adobe After Effects or Edge. A <a href="https://medium.com/the-thinkmill/prototyping-ui-animation-2fe08e3a7932">good introduction to Edge Animate can be found on medium.</a>
+
+Or just pick from this list of prototyping software. I like to point out it helps to work without software in the first place and add the motion design afterwards. You will be able to dive deep into the beauty of animation without loosing touch to your user.
+
+* <a href="http://flinto.com">flinto.com</a>
+* <a href="http://atomic.io">atomic.io</a>
+* <a href="http://pixate.com">pixate.com</a>
+* <a href="http://framer.js">framer.js</a>
+* <a href="http://facebook.github.io/origami">facebook.github.io/origami</a>
+* <a href="http://invisionapp.com">invisionapp.com</a>
+* <a href="http://marvelapp.com">marvelapp.com</a>
+* <a href="http://quartzcomposercom">quartzcomposercom</a>
+* <a href="http://proto.io">proto.io</a>
+* <a href="http://antetype.com">antetype.com</a>
+* <a href="http://popapp.in">popapp.in</a>
+* <a href="http://principleformac.com">principleformac.com</a>
+* <a href="http://getcomposite.com">getcomposite.com</a>
+* <a href="http://creative.adobe.com/products/animate">creative.adobe.com/products/animate</a>
+
+<h2>Thank you Prague for having me</h2>
+i feel like i won the fashion conference award instead of delivering a good talk. Thank you so much for the overwhelming feedback, the messages i got on twitter and e-mails.
+
+<img src="/docs/2015_09_22_Webexpo/CPRCADYUAAALTy0.jpg" alt="Marie at the webexpo" class="image-center" />
+
+> Match the design of your slides with your t-shirt! Of course <a href="https://twitter.com/ma_rylou">@ma_rylou</a> <a href="https://twitter.com/hashtag/stylish?src=hash">#stylish</a> <a href="https://twitter.com/hashtag/webexpo?src=hash">#webexpo</a> <a href="http://t.co/PpcZKwnqQd">pic.twitter.com/PpcZKwnqQd</a></p>&mdash; Petr Kosnar (@faxecz) <a href="https://twitter.com/faxecz/status/645213216717578240">19. September 2015</a></em>
