@@ -38,12 +38,16 @@ When i read a scientific study about how art in medical facilities can improve a
 
 ## Research
 
-My work is giving me the opportunity to do research in the whole world. I drew while i was traveling through Denmark. I visited the Oceaneum Stralsund and i had the chance to see William Turners Art.
+My work is giving me the opportunity to do research in the whole world. I drew while i was traveling through Denmark. I visited the Oceaneum Stralsund and i had the chance to see William Turners art.
 
-## Feedback
+## people say
 
-> You can watch it for hours. Stephan H. - Robotic Engineer
+> You can watch it for hours. - Stephan H. Robotic Engineer
 
+> Its amazing! Just like you. - Eva B. Illustrator
 
 
 <img class="image-wide" src="/docs/2016_04_04-seawork/marie-schweiz_searwork_13.jpg" />
+
+* Acryl on Canvas
+* 2 x 3 meters

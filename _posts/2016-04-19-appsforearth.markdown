@@ -21,7 +21,7 @@ Sound: Polarity https://soundcloud.com/polarity/hold-on
 
 <img class="image-wide" src="/docs/2016-04-19_apps_for_earth/Screenshot_procreate-si_website.jpg" />
 
-My Artwork was featured on procreate.si, Facebook, Twitter, the apple app store, as Video on youtube.
+My Artwork was featured on procreate.si, Facebook, Twitter, the Apple app store and as Video on youtube.
 
 <blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr">Picture a greener planet. <br>We can make it happen. <br>Made for <a href="https://twitter.com/hashtag/AppsforEarth?src=hash">#AppsforEarth</a> by <a href="https://twitter.com/ma_rylou">@ma_rylou</a> in <a href="https://twitter.com/procreateapp">@procreateapp</a>. <a href="https://t.co/iXoAZYOqZw">pic.twitter.com/iXoAZYOqZw</a></p>&mdash; App Store (@AppStore) <a href="https://twitter.com/AppStore/status/721452362989232128">16. April 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
