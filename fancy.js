@@ -1,5 +1,5 @@
 
-$(window).scroll(function() {
+$(window).scroll(function () {
 
     // get how far we've scrolled from the top of our screen
     var drehdich;
@@ -21,20 +21,20 @@ $(window).scroll(function() {
 });
 
 // toggleBar is now an element.
-$(document).ready(function() {
+$(document).ready(function () {
 
-    var toggleBar = function(element) {
+    var toggleBar = function (element) {
         $(element).clone().appendTo("ul.gallery").addClass("item-max");
 
-        $(".item-max").on("click", function(event) {
-            $(".item-max").fadeOut("2000", function(){
+        $(".item-max").on("click", function (event) {
+            $(".item-max").fadeOut("2000", function () {
                 $(".item-max").remove();
             })
         });
 
     }
     // target parent and define on.click will execute the following function.
-    $("ul.gallery li").on("click", function(event) {
+    $("ul.gallery li").on("click", function (event) {
 
         // neue variable anlegen für das elternelement
         var $parent = $(event.target).parent();
