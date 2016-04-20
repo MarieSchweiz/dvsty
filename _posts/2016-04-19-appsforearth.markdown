@@ -8,20 +8,18 @@ categories: Art
 
 ---
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, 
+I've been using procreate since 3 years and i was incredibly honored being chosen as featured artist for apples campaign together with the WWF and procreate. Together they are raising money to protect our nature.
 
 <div class="embedd">
     <iframe src="https://www.youtube.com/embed/Kg1wIVzjtT8" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Sound: Polarity
+>Procreate is made in the beautiful wilderness of Tasmania, so protecting the natural world is vitally important to us. We're teaming up to help the earth, and you can too." learn more [http://procreate.si](http://procreate.si)
 
-<ul class="gallery grid">
-<li><img class="gallery" src="/docs/2016-04-19_apps_for_earth/Screenshot_procreate-si_website.jpg" /></li>
-<li><img class="gallery" src="/docs/2016-04-19_apps_for_earth/13029650_1090957687617230_2482274621525622164_o.png" /></li>
-<li><img class="gallery" src="/docs/2016-04-19_apps_for_earth/Screenshot_facebook.png" /></li>
-<li><img class="gallery" src="/docs/2016-04-19_apps_for_earth/Screenshot_facebook.png" /></li>
-</ul>
+Artwork: Marie Schweiz http://marie-schweiz.de
+Sound: Polarity https://soundcloud.com/polarity/hold-on
+
+<img class="image-wide" src="/docs/2016-04-19_apps_for_earth/Screenshot_procreate-si_website.jpg" />
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, 
 
