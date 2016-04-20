@@ -8,7 +8,7 @@ categories: Art
 
 ---
 
-I've been using procreate since 3 years and i was incredibly honored being chosen as featured artist for apples campaign together with the WWF and procreate.
+I've been using procreate since 3 years and i was incredibly honored being chosen as featured artist for apples campaign together with the WWF and procreate. Together they are raising money to protect our nature.
 
 <div class="embedd">
     <iframe src="https://www.youtube.com/embed/Kg1wIVzjtT8" frameborder="0" allowfullscreen></iframe>
