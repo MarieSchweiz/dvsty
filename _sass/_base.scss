@@ -180,6 +180,7 @@ pre {
     }
 }
 
+
 /**
  * lustige posting blöcke
  */
@@ -505,12 +506,17 @@ ul.gallery li img:hover {
     
     padding: 0px;
     margin: 10% auto 19% auto;
-    width: -webkit-calc(#{$content-width} - (#{$spacing-unit * 2}));
-    width:         calc(#{$content-width} - (#{$spacing-unit * 2}));
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit * 2}));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit * 2}));
     
     
     @include media-query($on-palm) {
         margin: 25% auto 8% auto;
+        
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit * 2}));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit * 2}));
+    
+    
     }
     
     @include media-query($on-laptop) {

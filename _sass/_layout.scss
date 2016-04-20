@@ -285,12 +285,12 @@
     }
     
     @include media-query($on-laptop) {
-        
+        padding: $spacing-unit;
         
        
     }
     @include media-query($on-palm) {
-     
+        padding: $spacing-unit;
        
     }
 }
