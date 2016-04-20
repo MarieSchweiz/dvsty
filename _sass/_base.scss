@@ -327,6 +327,7 @@ ul.gallery {
       margin: auto;
       animation: 0.4s ease-in;
       animation-name: galleryimg;
+      cursor: pointer;
       
       @keyframes galleryimg{
           from {

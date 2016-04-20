@@ -8,19 +8,19 @@ categories: Workshop
 
 ---
 
-On Saturday September 5th I was hosting a creative iPad workshop at the Academy for new Illustration and design in Berlin. I’m very exited this idea of mine is happened because i believe in touch technology.
+On Saturday September 5th I was hosting a creative iPad workshop at the Academy for new Illustration and design in Berlin. I’m very exited this idea of mine  happened because i believe in touch technology.
 
 Adonit is a well known manufacturer for iPad stylus hardware and one of my clients. Together with the Academy for new Illustration we invited Berlin’s creatives and tablet enthusiasts for a chat and beer.
 
 The workshop was covering a few illustration basics and tricks so everyone was able to join and learn more. Length: 40 minutes.
 
 <ul class="gallery grid">
-<li><img class="gallery" src="/docs/2015_09_05_ipad_workshop/workshop_01_location_aid.jpg" /></li>
+<li><img class="gallery" src="/docs/2015_09_05_ipad_workshop/workshop_01_location_aidberlin.jpg" /></li>
 <li><img class="gallery" src="/docs/2015_09_05_ipad_workshop/workshop_02_materialien.jpg" /></li>
 <li><img class="gallery" src="/docs/2015_09_05_ipad_workshop/workshop_03_preperation.jpg" /></li>
 <li><img class="gallery" src="/docs/2015_09_05_ipad_workshop/workshop_04_food.jpg" /></li>
-<li><img class="gallery" src="/docs/2015_09_05_ipad_workshop/workshop_05_teamtracy.jpg" /></li>
-<li><img class="gallery" src="/docs/2015_09_05_ipad_workshop/workshop_06_fullhouse.jpg" /></li>
+<li><img class="gallery" src="/docs/2015_09_05_ipad_workshop/workshop_05_teamtracymarie.jpg" /></li>
+<li><img class="gallery" src="/docs/2015_09_05_ipad_workshop/workshop_06_aidfullhouse.jpg" /></li>
 <li><img class="gallery" src="/docs/2015_09_05_ipad_workshop/workshop_07.JPG" /></li>
 <li><img class="gallery" src="/docs/2015_09_05_ipad_workshop/workshop_09.JPG" /></li>
 </ul>
