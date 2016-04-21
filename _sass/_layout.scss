@@ -432,9 +432,6 @@
 
         }
 
-
-    
-
     &:hover .post-meta {
             opacity: 1;
             animation: 0.3s ease-in;
@@ -451,16 +448,17 @@
     }
 
     &:hover a{
-            color:rgba(177,177,177,1);
+            color:rgba(255,255,255,1);
+            opacity: 1;
             animation: 0.3s ease-in;
             animation-name: textopacity;
 
         @keyframes textopacity {
             from {
-                color:rgba(177,177,177,0.7);
+                color:rgba(255,255,255,0.5);
             }
             to {
-                color:rgba(177,177,177,1);
+                color:rgba(255,255,255,1);
             }
         }
 
@@ -479,7 +477,7 @@
     }
 
     a {
-        color:rgba(177,177,177,0.7);
+        color:rgba(255,255,255,0.5);
     }
 
 }
@@ -487,13 +485,22 @@
 
 .post-link {
     display: block;
-    font-size: $base-font-size + 4;
+    font-size: $base-font-size - 2;
     margin: 2vh 0 0 0;
-    font-family: $base-font-teaser;
+    font-family: $base-font-family;
     letter-spacing: 0.05em;
+    min-height: 7vh;
+   
+    
+    display: inline-block;
+    
+    &:hover {
+        text-decoration: none;
+        color: $brand-color;
+    }
 
     @include media-query($on-desktop) {
-        font-size: $base-font-size - 3;
+        font-size: $base-font-size - 4;
     }
     @include media-query($on-laptop) {
         font-size: $base-font-size - 3;
@@ -502,6 +509,54 @@
         font-size: $base-font-size + 2;
     }
 }
+
+
+.post-list h2 a::before {
+    content: '';
+    min-width: 10vh;
+    min-height: 10vh;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 1vh;
+    
+    @include media-query($on-desktop){
+        min-width: 8vh;
+        min-height: 8vh;
+    }
+}
+
+a.Art::before { 
+    background-image: url(/assets/icn_art.png);
+    &:hover { background-image: url(/assets/icn_art_h.png);}
+}
+
+a.Event::before {
+     background-image: url(/assets/icn_event.png);
+    &:hover {
+        background-image: url(/assets/icn_event_h.png);
+    }
+}
+a.Conference::before {
+     background-image: url(/assets/icn_conference.png);
+    &:hover {
+        background-image: url(/assets/icn_conference_h.png);
+    }
+}
+a.Workshop::before {
+     background-image: url(/assets/icn_workshop.png);
+    &:hover {
+        background-image: url(/assets/icn_workshop_h.png);
+    }
+}
+a.Appdesign::before {
+     background-image: url(/assets/icn_appdesign.png);
+    &:hover {
+        background-image: url(/assets/icn_appdesign_h.png);
+    }
+}
+
 
 .post-image {
     overflow: hidden;

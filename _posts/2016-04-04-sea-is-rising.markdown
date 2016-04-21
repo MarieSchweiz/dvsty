@@ -3,7 +3,7 @@ layout: stage
 title: "The Sea is rising, painting like i never did before"
 date: 2016-04-03 11:00:00 +0100
 stage-image: /docs/2016_04_04-seawork/marie_schweiz_painting.jpg
-stage-thumbnail: /docs/2016_04_04-seawork/marie-schweiz_searwork_thumb.jpg
+stage-thumbnail: /docs/2016_04_04-seawork/marie-schweiz_searwork_12_thumb.jpg
 categories: Art
 
 ---

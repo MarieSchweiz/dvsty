@@ -59,14 +59,15 @@ $base-font-teaser:'sofia_prolight', sans-serif;
 $spacing-unit:     5vh;
 
 $text-color:       #828282;
-$heading-color:    #9DABAB;
+$heading-color:    #BBBBBB;
 $background-color: #1C1E1F;
-$brand-color:      rgba(0,153,153,1);
+$brand-color:      #D3C79A;
 
 $grey-color:       #282C2D;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 $gold-color: #827D6A;
+$gold-color-light:#D3C79A;
 
 // Width of the content area
 $content-width:    650px;
