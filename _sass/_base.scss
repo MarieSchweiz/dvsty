@@ -452,10 +452,7 @@ ul.six-items {
      box-sizing: border-box;
      font-size: 13px;
      position: fixed;
-     z-index: 900;
-     
-     
-     
+     z-index: 900;  
 }
 
 .logo-back {
@@ -463,6 +460,7 @@ ul.six-items {
     opacity: 0.8;
     animation: 1.2s ease-in;
     animation-name: delay-hide;  
+   
     @keyframes delay-hide{
            from {
            opacity:0;
@@ -475,8 +473,8 @@ ul.six-items {
         &:hover{
         opacity: 1;
         }
-    }
 }
+
 
 
 .wrapper-stage {
