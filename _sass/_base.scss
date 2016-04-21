@@ -402,6 +402,21 @@ ul.gallery li img:hover {
 }
 
 
+ul.three-items {
+    
+    li {
+        width:30%;
+    }
+}
+
+ul.six-items {
+    
+    li {
+        width:15%;
+    }
+}
+
+
 
 
 
@@ -412,8 +427,6 @@ ul.gallery li img:hover {
 .site-header-focus {
     position: relative;
     width: 100%;
-    
-    
     background-position: center 75%;
     background-size: cover;
     background-color: $background-color;
@@ -432,23 +445,39 @@ ul.gallery li img:hover {
 }
 
 .site-header-focus .site-title {
-     background-image: url(/assets/v_logo_negative.png);
      background-size: contain;
      background-repeat:no-repeat;
-     width: 5vh;
-     height: 5vh;
+     width: 35px;
+     height: 35px;
      box-sizing: border-box;
      font-size: 13px;
      position: fixed;
+     z-index: 900;
+     
+     
      
 }
 
-
-
-.site-header-focus .site-title span{
-    display: none;
+.logo-back {
+    width: 100%;
+    opacity: 0.8;
+    animation: 1.2s ease-in;
+    animation-name: delay-hide;  
+    @keyframes delay-hide{
+           from {
+           opacity:0;
+           }
+           to {
+           opacity:0.8; 
+           }
+       }
     
+        &:hover{
+        opacity: 1;
+        }
+    }
 }
+
 
 .wrapper-stage {
     
@@ -490,6 +519,11 @@ ul.gallery li img:hover {
     flex-shrink: 0;
     align-items: stretch;
     
+    @include media-query($on-palm) {
+          width: 100%;
+          
+     }
+    
     &::before {
         content: '';
         background: green;
@@ -504,6 +538,10 @@ ul.gallery li img:hover {
     flex-grow: 1;
     flex-shrink: 1;
     background: $background-color;
+    
+    @include media-query($on-palm) {
+        display: none;
+     }
 }
 
 

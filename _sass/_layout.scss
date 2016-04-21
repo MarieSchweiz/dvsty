@@ -165,7 +165,6 @@
 
 .site-title {
     font-weight: 300;
-    line-height: 56px;
     margin-bottom: 0;
     float: left;
 
@@ -173,6 +172,10 @@
     &,
     &:visited {
         color: $grey-color-dark;
+    }
+    
+    span {
+        display: none;
     }
 }
 
@@ -490,8 +493,6 @@
     font-family: $base-font-family;
     letter-spacing: 0.05em;
     min-height: 7vh;
-   
-    
     display: inline-block;
     
     &:hover {
@@ -500,13 +501,13 @@
     }
 
     @include media-query($on-desktop) {
-        font-size: $base-font-size - 4;
+        font-size: $base-font-size - 6;
     }
     @include media-query($on-laptop) {
         font-size: $base-font-size - 3;
     }
     @include media-query($on-palm) {
-        font-size: $base-font-size + 2;
+        font-size: $base-font-size - 2;
     }
 }
 
@@ -516,14 +517,23 @@
     min-width: 10vh;
     min-height: 10vh;
     display: inline-block;
+    float: left;
     background-size: contain;
     background-repeat: no-repeat;
-    float: left;
     margin-right: 1vh;
     
     @include media-query($on-desktop){
         min-width: 8vh;
         min-height: 8vh;
+    }
+    
+    @include media-query($on-laptop) {
+        min-width: 10vh;
+        min-height: 10vh;
+    }
+    @include media-query($on-palm){
+        min-width: 16%;
+        min-height: 10vh;
     }
 }
 

@@ -1,6 +1,6 @@
 ---
 layout: stage
-title:  "Creative iPad workshop at the academy for illustration"
+title:  "Creative iPad workshop at the Academy for Illustration"
 date: 2015-08-13 17:10:20 +0100
 stage-image: /docs/2015_09_05_ipad_workshop/marie_schweiz_ipadworkshop.jpg
 stage-thumbnail: /docs/2015_09_05_ipad_workshop/marie_schweiz_ipadworkshop.jpg
