@@ -47,7 +47,7 @@
     .ne    { color: #900; font-weight: bold } // Name.Exception
     .nf    { color: #900; font-weight: bold } // Name.Function
     .nn    { color: #555 } // Name.Namespace
-    .nt    { color: #000080 } // Name.Tag
+    .nt    { color: #099 } // Name.Tag
     .nv    { color: #008080 } // Name.Variable
     .ow    { font-weight: bold } // Operator.Word
     .w     { color: #bbb } // Text.Whitespace
@@ -58,7 +58,7 @@
     .sb    { color: #d14 } // Literal.String.Backtick
     .sc    { color: #d14 } // Literal.String.Char
     .sd    { color: #d14 } // Literal.String.Doc
-    .s2    { color: #d14 } // Literal.String.Double
+    .s2    { color: #D3C79A } // Literal.String.Double
     .se    { color: #d14 } // Literal.String.Escape
     .sh    { color: #d14 } // Literal.String.Heredoc
     .si    { color: #d14 } // Literal.String.Interpol

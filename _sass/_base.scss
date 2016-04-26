@@ -304,7 +304,7 @@ ul.gallery {
     
     > li.item-max {
     border: 0px solid red;
-    z-index: 500;
+    z-index: 999;
     position: fixed;
     width: 100%;
     top: 0;
@@ -416,6 +416,14 @@ ul.six-items {
     }
 }
 
+ul.circles li img{
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+ul.circles li.item-max img {
+    border-radius: 0;
+}
 
 
 
@@ -473,6 +481,10 @@ ul.six-items {
         &:hover{
         opacity: 1;
         }
+    
+    @include media-query($on-palm) {
+        display: none;
+    }
 }
 
 
@@ -493,6 +505,10 @@ ul.six-items {
     @include media-query($on-laptop) {
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
+    }
+    @include media-query($on-palm) {
+        padding-right: $spacing-unit;
+        padding-left: $spacing-unit;
     }
 
 
@@ -518,7 +534,9 @@ ul.six-items {
     align-items: stretch;
     
     @include media-query($on-palm) {
-          width: 100%;
+            width: 100%;
+            background-position: left bottom;
+            height: 5vh;
           
      }
     
@@ -538,7 +556,7 @@ ul.six-items {
     background: $background-color;
     
     @include media-query($on-palm) {
-        display: none;
+        
      }
 }
 
@@ -550,7 +568,7 @@ ul.six-items {
 #stage {
     
     padding: 0px;
-    margin: 10% auto 19% auto;
+    margin: 10% auto 25vh auto;
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit * 2}));
     max-width:         calc(#{$content-width} - (#{$spacing-unit * 2}));
     

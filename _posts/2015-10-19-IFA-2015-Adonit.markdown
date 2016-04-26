@@ -1,7 +1,7 @@
 ---
 layout: stage
-title:  "IFA 2015 in Berlin with Adonit"
-date: 2016-03-14 17:10:20 +0100
+title:  "IFA 2015 electronic fair with Adonit"
+date: 2015-10-19 17:10:20 +0100
 stage-image: /docs/2015_09_12_Adonit/ifa-rocks.jpg
 stage-thumbnail: /docs/2015_09_12_Adonit/2015_09_12_adonit_students.jpg
 categories: Event

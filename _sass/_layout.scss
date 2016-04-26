@@ -15,12 +15,22 @@
     padding-top: $spacing-unit;
     padding-bottom: $spacing-unit * 2;
     @extend %clearfix;
-
+    
+    @include media-query($on-retina) {
+        padding-bottom: 0 ;
+    }
+    
+    @include media-query($on-desktop) {
+        padding-bottom: $spacing-unit ;
+    }
+    
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
         padding-right: $spacing-unit ;
         padding-left: $spacing-unit ;
+        padding-bottom: $spacing-unit ;
+        
     }
     
     @include media-query($on-palm) {
@@ -57,7 +67,6 @@
  */
 
 .wrapper-menu {
-    margin-bottom: 5vh;
     display: flex;
     justify-content: flex-start;
     align-items:stretch;
@@ -66,7 +75,6 @@
     @extend %clearfix;
 
     @include media-query($on-laptop) {
-        padding: $spacing-unit ;
     }
 
     @include media-query($on-palm) {
@@ -84,7 +92,6 @@
     }
 
     > .intro .site-title {
-        font-size: $base-font-size * 2.5;
         font-family: $base-font-heading;
         background-size:contain;
         background-repeat:no-repeat;
@@ -93,14 +100,16 @@
         margin: 0;
         box-sizing:border-box;
         color: #fff;
-;
-
-        &:hover{
-          text-decoration: none;
-          color: #fff;
+        
+        
+        
+        @include media-query($on-palm) {
+           width: 20%;
+            img {
+                height: 25px;
+            }
         }
-
-
+        
         @include media-query($on-laptop) {
            width: 10%;
           
@@ -108,17 +117,9 @@
         @include media-query($on-desktop) {
            width: 20%;
         }
+        
+    
     }
-    > .site-title:visited {
-        animation: 0s;
-    }
-
-    > .intro .site-title  span {
-        text-transform: uppercase;
-        font-family: 'sofia_probold';
-        letter-spacing: 0.05em;
-    }
-
     
 }
 
@@ -131,27 +132,27 @@
     background-size:contain;
     max-width: 1280px;
     margin: auto;
-
     padding-right: $spacing-unit * 2;
     padding-left: $spacing-unit * 2;
     padding-top: $spacing-unit;
-    padding-bottom: 0;
-
-
+    padding-bottom: $spacing-unit;
+    
     // Positioning context for the mobile navigation icon
     position: relative;
 
     @extend %clearfix;
+    
     @include media-query($on-desktop) {
-        padding: $spacing-unit 0 0 0;
-        margin: 0 $spacing-unit * 2 0;
+        padding-top: $spacing-unit;
+        padding-bottom: $spacing-unit;
        
     }
     
     @include media-query($on-laptop) {
-        margin: 0;
-        background: none;
+        padding-right: $spacing-unit ;
+        padding-left: $spacing-unit ;
         padding-top: $spacing-unit;
+        padding-bottom: $spacing-unit;
         
     }
     @include media-query($on-palm) {
@@ -273,29 +274,25 @@
 
 
 .site-footer {
-    border-top: 0px solid $grey-color;
-    padding: $spacing-unit * 2;
     max-width: 1280px;
-    margin: $spacing-unit * 2 auto;
+    padding: $spacing-unit * 2;
+    margin: 0 auto $spacing-unit * 2;
     background: #161819;
-    
-    
-    @extend %clearfix;
-    
+
     @include media-query($on-retina) {
-        margin: 0;
+        margin: 6vh auto 0vh;
     }
     
-    @include media-query($on-desktop) {
+     @include media-query($on-desktop) {
         margin: 0;
     }
     
     @include media-query($on-laptop) {
         padding: $spacing-unit;
-        
-       
+   
     }
-    @include media-query($on-palm) {
+    
+     @include media-query($on-palm) {
         padding: $spacing-unit;
        
     }
@@ -338,6 +335,9 @@
          width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
          
          
+    }
+    @include media-query($on-palm) {
+        width: 100%;
     }
 }
 
@@ -406,7 +406,6 @@
 
 
     > li {
-        margin-bottom: $spacing-unit;
         width: 30%;
         box-sizing: border-box;
         padding: 0 0 0 0;
@@ -414,16 +413,16 @@
 
 
         @include media-query($on-laptop) {
-            width: 43%;
+            width: 46%;
 
         }
 
         @include media-query($on-palm) {
             width: 100%;
 
-        }
+    }
 
-        .post-meta {
+    .post-meta {
             font-size: $small-font-size;
             color: $grey-color;
             z-index: 1000;
@@ -463,23 +462,10 @@
             to {
                 color:rgba(255,255,255,1);
                 }
-        }
-
-        }
-
-
-    }
-
-
-
-    > li:nth-child(3n) {padding: 0 0 0 0;
-
-        @include media-query($on-laptop) {
-
+            }
         }
 
     }
-
     a {
         color:rgba(255,255,255,0.5);
     }
@@ -509,6 +495,9 @@
     }
     @include media-query($on-palm) {
         font-size: $base-font-size - 2;
+        position: relative;
+        top:-49px;
+        margin: 0;
     }
 }
 
@@ -533,8 +522,15 @@
         min-height: 10vh;
     }
     @include media-query($on-palm){
-        min-width: 16%;
-        min-height: 10vh;
+        min-width: 70px;
+        min-height: 50px;
+        margin-bottom: 2vh;  
+        display: block;
+        float: none;
+        position: relative;
+        top: 0;
+        left: -1px;
+        
     }
 }
 
@@ -568,12 +564,38 @@ a.Appdesign::before {
     }
 }
 
+.post-list h2 a::after {
+    content: '...';
+}
 
 .post-image {
     overflow: hidden;
     z-index: 0;
     position: relative;
     width: 100%;
+    
+    &:hover .post-box{
+        &::after{ 
+            left: 0px;
+            animation: 0.3s ease-in;
+            
+            animation-name: movingleft;
+
+            @keyframes movingleft {
+            from {
+                left: -390px;
+            }
+            to {
+                left: 0px;
+            }
+        }
+            
+            
+            
+            
+        }
+        
+    }
 }
 
 .post-image:before {
@@ -584,7 +606,6 @@ a.Appdesign::before {
 
 .image-link{
     max-height: 100%;
-    left: -25%;
     position: relative;
 
 }
@@ -595,6 +616,19 @@ a.Appdesign::before {
     left: 0;
     bottom: 0;
     right: 0;
+    
+    &::after{
+       content: '';
+       height: 3px;
+       width: 100%;
+       background:$gold-color-light;
+       z-index: 900;
+       display: block;
+       position: relative;
+       left: -390px;
+       top:-2px;
+    }
+    
 }
 
 

@@ -3,7 +3,7 @@ layout: stage
 title:  "Animation for Interfaces. Webexpo Prague 2015"
 date: 2015-09-22 17:10:20 +0100
 stage-image: /docs/2015_09_22_Webexpo/prague-header.jpg
-stage-thumbnail: /docs/2015_09_22_Webexpo/webexpo_notes.jpg
+stage-thumbnail: /docs/2015_09_22_Webexpo/drop.gif
 categories: Conference
 
 ---

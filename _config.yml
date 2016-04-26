@@ -9,9 +9,9 @@
 title: diversity
 email: marie@dvsty.com
 description: > # this means to ignore newlines until "baseurl:"
-  Marie is a Freelance Visual- and Userexperience Designer working in Berlin, Munich and remote. Her specialty are touchable interfaces.
+  I'm a Freelance UI and UX Designer working in Berlin, Munich and remote. My specialty are touchable interfaces and I'm looking forward to hear from you.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://beta.dvsty.com/" # the base hostname & protocol for your site
+url: "http://dvsty.com/" # the base hostname & protocol for your site
 twitter_username: ma_rylou
 github_username:  MarieSchweiz
 

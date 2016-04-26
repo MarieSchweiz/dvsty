@@ -17,13 +17,16 @@
             </address>  
         </div>
         <div class="footer-fixed"> 
-              {% for my_page in site.pages %}
+             
+              
+              <p>{{ site.description }}</p>
+              
+               {% for my_page in site.pages %}
                 {% if my_page.title %}
                 <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
                 {% endif %}
               {% endfor %}
               
-              <p>{{ site.description }}</p>
               </div>
               
         <div class="footer-stretch"></div>

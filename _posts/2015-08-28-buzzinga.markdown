@@ -1,8 +1,8 @@
 ---
 layout: stage
-title: "buzzinga, a material designed android app"
+title: "Buzzinga, a material designed Android app"
 date: 2015-08-30 11:00:00 +0100
-stage-image: /docs/2015_08_30_buzzinga/2015_08_30_buzzinga_header.jpg
+stage-image: /docs/2015_08_30_buzzinga/2015_08_30_buzzinga_header.png
 stage-thumbnail: /docs/2015_08_30_buzzinga/2015_08_30_buzzinga_teaser.jpg
 categories: Appdesign
 
@@ -29,8 +29,9 @@ I talked my development team through the layout and we saved a lot of time with 
 </ul>
 
 ## Background Graphics
-Material design, a simple and little playful look was requested. And the limitation which third party graphics can be used was huge. There isn't that much data left for leading people into a fitting choice so i had to make it.
+Material design, a simple and little playful look was requested. And the limitation which third party graphics can be used was huge. There isn't that much data left for leading people into a fitting choice so i had to make it. I used 3 hours to make 6 simple illustrations for each major category.
 
+## Brand as Userexperience
 From the beginning we planned and took care of where and when will the brand and animation take place. As team we thought about it and most of it is done by pen & paper. A huge problem was and still is the identity of the idea and brand. I'd like to point out i'm not responsible for the name or idea.
 
 Thank you Team for accepting and embracing the user centered design and strategy we developed together. It was a pleasure working with all of you.
@@ -43,3 +44,4 @@ The current application is US only.
 * Time: 0 - 14 day's
 * Designer: Marie Schweiz
 * Jobs owned: Lead UX and Visualdesign
+* Client: [Fonpit AG](http://fonpit.com/)
