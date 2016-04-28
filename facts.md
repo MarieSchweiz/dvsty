@@ -6,7 +6,7 @@ stage-image: /docs/Istanbul.jpg
 stage-thumbnail: /docs/2015_09_12_Adonit/2015_09_12_adonit_students.jpg
 ---
 
-I'm born in Munich, Germany and received a scholaship from the European Union and the city of Munich in the field of Art. As 20 year old I moved to Berlin, skipped University and went strait into business. 2010 I took interest in Android as platform and mobile design in general. I specialized and left my position as Visual Designer. Since 2011 I'm freelancing as mobile designer and expert in the field of android and iOS. I worked with huge and small teams. From corporate to startup.
+I'm born in Munich and received a scholarship from the European Union and the city of Munich in the field of art. As 20 year old I moved to Berlin, skipped University and went strait into business as frontend developer. 2010 I took interest in Android as platform and mobile design in general. I specialized and left my position as Visual Designer. Since 2011 I'm freelancing as mobile designer and expert for android, iOS and web. I worked with huge and small teams. From corporate to startup.
 
 ## Services i offer
 
