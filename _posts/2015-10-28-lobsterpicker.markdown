@@ -28,6 +28,7 @@ Our next generation got cleaner and we picked up Googles Material color palette.
 Our recent version of the lobsterpicker is released on Github and available in the [Google Play store as Demo app](https://play.google.com/store/apps/details?id=com.larswerkman.lobsterpickerproject). Check it out.
 
 <img class="image-center" src="/docs/2015-10-28-lobsterpicker/Screenshot_2015-10-19-14-54-25_framed.png">
+The Lobsterpicker project is available on [Github](https://github.com/LarsWerkman/Lobsterpicker). Licensed under the Apache License, Version 2.0.
 
 * Platform: Android
 * Design language: Material
@@ -35,5 +36,3 @@ Our recent version of the lobsterpicker is released on Github and available in t
 * Designer: Marie Schweiz
 * Developer: [Lars Werkmann](https://larswerkman.com/)
 * Jobs owned: UX and UI Design
-
-The Lobsterpicker project is available on [Github](https://github.com/LarsWerkman/Lobsterpicker). Licensed under the Apache License, Version 2.0.
